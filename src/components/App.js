@@ -15,7 +15,6 @@ class App extends Component {
   }
 
   changeBirthday() {
-    console.log("changeBirthday():", this.state);
     this.setState({
       birthday: this.state.newDate,
       showStats: true
