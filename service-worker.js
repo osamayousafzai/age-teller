@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/age-teller/precache-manifest.56ca44b64f930ef677d0e5805fd5c485.js"
+  "/age-teller/precache-manifest.1c26ba046c1ca2dd97314f956c2dede9.js"
 );
 
 workbox.clientsClaim();
