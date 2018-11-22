@@ -19,8 +19,7 @@ class AgeStats extends Component {
   render() {
     return (
       <div>
-        <h3>{this.props.date}</h3>
-        <h4>Congras on {this.timeSince(this.props.date)}!</h4>
+        <h4>Today you are {this.timeSince(this.props.date)} old!</h4>
         <img src={partyPopper} alt="party-popper" className="party-popper" />
       </div>
     );
